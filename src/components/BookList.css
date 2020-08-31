@@ -1,0 +1,38 @@
+body {
+    background-color: whitesmoke;
+}
+
+.books {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 5rem;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.book-item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 5px 5px 15px -8px #00000061;
+}
+
+.book-item img {
+    display: block;
+    width: 100%;
+}
+
+.book-item__content {
+    padding: 1rem;
+    text-align: left;
+}
+
+.book-item__content button {
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
